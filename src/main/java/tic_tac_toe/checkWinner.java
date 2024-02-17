@@ -1,4 +1,7 @@
 package tic_tac_toe;
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -7,9 +10,11 @@ import java.util.Objects;
 import java.util.Random;
 
 
+
 public class checkWinner{
 
-  static  boolean hasWon = false;
+    @Getter @Setter
+    private static  boolean hasWon = false;
     public static void checkWin() {
 
 

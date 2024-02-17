@@ -20,7 +20,7 @@ public class TicTacToe implements ActionListener {
     private static final JLabel notification = new JLabel();
     private final JPanel titlePanel = new JPanel();
     private final JPanel buttonPanel = new JPanel();
-    @Getter
+    @Getter @Setter
     private static JButton[] buttons = new JButton[9];
     @Setter @Getter
     private static boolean isPlayerXTurn =true;
